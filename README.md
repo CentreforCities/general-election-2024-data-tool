@@ -7,8 +7,7 @@ The Centre for Cities constituency data tool combines combines different dataset
 
 Much of this data is not currently available at the constituency level, so Centre for Cities has used data at small geographies (OAs/LSOAs/MSOAs) and assigned it to the new constituencies where they overlap.
 
-This repo contains the final mastersheet produced for this tool for every constituency in Great Britain as a CSV. The workbook is available on request.
-
+This repo contains the final mastersheet produced for this tool for every constituency in Great Britain as a CSV. The full workbook is available on request.
 
 ## Understanding the Data
 
@@ -30,7 +29,13 @@ There are 26 different indicators in this dataset, including:
 
 * Housing tenure (2021), Census 2021, https://www.nomisweb.co.uk/query/select/getdatasetbytheme.asp?theme=93
 
+## Method
 
+Constituencies have been classified as either urban (conforming with the Centre for Cities 2015 Primary Urban Area [PUA] boundaries, built out of local authorities with a daytime [workplace] population greater than 135,000); hinterland (within commutable distance of each PUA, varying across the country) and more rural (outside of commuting distance of a PUA) according to their LSOAs. 
+
+LSOAs have been allocated to the seat in which a majority of their area lies. 
+
+Each indicator is constructed from the LSOAs assigned to each constituency, with the LSOA values used as both the numerator and the denominator for each constiuency. For example, if there are 25000 people with poor health in the LSOAs that make up a constituency, and the total population of those LSOAs is recorded as 70000, then 36% of the population will be recorded as being in poor health in the constituency. This is effectively a weighted average for each seat.
 
 ## Acknowledgements
 
