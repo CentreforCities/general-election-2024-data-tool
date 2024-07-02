@@ -7,7 +7,7 @@ The Centre for Cities constituency data tool combines combines different dataset
 
 Much of this data is not currently available at the constituency level, so Centre for Cities has used data at small geographies (OAs/LSOAs/MSOAs) and assigned it to the new constituencies where they overlap.
 
-This repo contains the final mastersheet produced for this tool for every constituency in Great Britain as a CSV. The full workbook is available on request.
+This repo contains the final mastersheet produced for this tool for every constituency in Great Britain as a CSV, plus some additional data on housing affordability and tenure. The full workbook is available on request.
 
 ## Understanding the Data
 
