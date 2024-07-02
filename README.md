@@ -37,6 +37,12 @@ LSOAs have been allocated to the seat in which a majority of their area lies.
 
 Each indicator is constructed from the LSOAs assigned to each constituency, with the LSOA values used as both the numerator and the denominator for each constituency. For example, if there are 25000 people with poor health in the LSOAs that make up a constituency, and the total population of those LSOAs is recorded as 70000, then 36% of the population will be recorded as being in poor health in the constituency. This is effectively a weighted average for each seat.
 
+## Caveats
+
+Some data uses 2011 values as the most recent 2021 Census contains data quality issues, especially around commuting, due to being conducted during the middle of the Covid pandemic. As a result, the WFH estimates can broadly be considered an underestimate.
+
+The Housing Affordability Ratio are indicative, because incomes data instead of wages data is used at the LSOA level due to availability. As a result, this means people outside the labour market or marginally attached to it, such as pensioners and students, who often won't use the labour market to access the housing market, are included in the income estimates, which will translate into over-estimates at the upper-end for the HAR. House prices may be a stronger choice for analysis on housing affordability across seats.
+
 ## Acknowledgements
 
 Paul Swinney for conducting the original analysis, Viola Pititto for building the original tool
