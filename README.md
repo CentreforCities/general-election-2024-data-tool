@@ -35,7 +35,7 @@ Constituencies have been classified as either urban (conforming with the Centre 
 
 LSOAs have been allocated to the seat in which a majority of their area lies. 
 
-Each indicator is constructed from the LSOAs assigned to each constituency, with the LSOA values used as both the numerator and the denominator for each constiuency. For example, if there are 25000 people with poor health in the LSOAs that make up a constituency, and the total population of those LSOAs is recorded as 70000, then 36% of the population will be recorded as being in poor health in the constituency. This is effectively a weighted average for each seat.
+Each indicator is constructed from the LSOAs assigned to each constituency, with the LSOA values used as both the numerator and the denominator for each constituency. For example, if there are 25000 people with poor health in the LSOAs that make up a constituency, and the total population of those LSOAs is recorded as 70000, then 36% of the population will be recorded as being in poor health in the constituency. This is effectively a weighted average for each seat.
 
 ## Acknowledgements
 
